@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd" 
+      version="2.1">
+	<tlibversion>1.0</tlibversion>
+	<shortname>Application Tag Library</shortname>
+	<tag>
+		<name>select</name>
+		<tagclass>com.chendy.customtag.SelectElemetTag</tagclass>
+		<bodycontent>scriptless</bodycontent>
+	</tag>
+</taglib>

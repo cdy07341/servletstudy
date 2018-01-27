@@ -45,5 +45,6 @@ public class ServletDemo01 implements Servlet {
 		System.out.println("service :" + config.getInitParameter("name"));
 		System.out.println(1111);
 	}
+	
 
 }

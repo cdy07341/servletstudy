@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:schemaLocation="http://java.sun.com/xml/ns/javaeeweb-jsptaglibrary_2_1.xsd" 
+      version="2.1">
+    <description>
+    	function
+    </description>
+	<tlibversion>1.0</tlibversion>
+	<function>
+		<description>reverse a string</description>
+		<name>reverseString</name>
+		<function-class>com.chendy.function.StringFunction</function-class>
+		<function-signature>
+			java.lang.String reverseString(java.lang.String)
+		</function-signature>
+	</function>
+</taglib>

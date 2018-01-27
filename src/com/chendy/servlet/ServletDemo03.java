@@ -13,7 +13,11 @@ import javax.servlet.http.HttpServletResponse;
 public class ServletDemo03 extends HttpServlet {
 	protected void doGet(javax.servlet.http.HttpServletRequest req, javax.servlet.http.HttpServletResponse resp)
 			throws javax.servlet.ServletException, java.io.IOException {
-		System.out.println("get");
+		System.out.println(req.getContextPath());
+		System.out.println(req.getRequestURL());
+		System.out.println(req.getRequestURI());
+//		resp.sendRedirect("http://www.baidu.com");
+	
 	}
 
 	@Override
